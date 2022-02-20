@@ -44,8 +44,8 @@ async def search_user_in_community(bot, update):
         await bot.get_chat_member('@AJPyroVerseGroup', update.chat.id)
     except UserNotParticipant:
         await update.reply_text(BotMessage.not_joined_community, parse_mode = 'html',reply_markup=InlineKeyboardMarkup([
-        [InlineKeyboardButton('Join our Channel.',url = 'https://t.me/AJPyroVerse')],
-        [InlineKeyboardButton('Join our Group.',url = 'https://t.me/AJPyroVerseGroup')]
+        [InlineKeyboardButton('Join our Channel.',url = 'https://t.me/Badsha_Bot_Updates')],
+        [InlineKeyboardButton('Join our Group.',url = 'https://t.me/Suport_Badsha_Studios')]
         ]))
         return
     except exceptions.bad_request_400.ChatAdminRequired:
