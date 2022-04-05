@@ -13,7 +13,7 @@
         "uploader"
     ],
     "repository" : "https://github.com/waiifdsw/URL_Uploader_Bot",
-    "success_url" : "https://t.me/URL_UploaderAJ_Bot",
+    "success_url" : "https://t.me/uqlusGerbot",
     "env" : {
         "BOT_TOKEN" : {
             "description" : "Get From https://t.me/BotFather"
